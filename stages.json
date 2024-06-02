@@ -1,0 +1,50 @@
+{
+  "stage_1": {
+    "expected_error": "undefined method '+' for nil (NoMethodError)",
+    "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np n + 1\nputs \"no error\"\n"
+  },
+  "stage_2": {
+    "expected_error": "undefined method 'downcase' for nil (NoMethodError)",
+    "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[0].downcase\n"
+  },
+  "stage_3": {
+    "expected_error": "wrong number of arguments (given 2, expected 3) (ArgumentError)",
+    "source": "# Last of the day\ndef foo(x, y, z)\nend\n\nfoo(1, 2, 3)\n\nputs 'no error'\n"
+  },
+  "stage_4": {
+    "expected_error": "nil can't be coerced into Integer (TypeError)",
+    "source": "# Good morning!\nn = 3\nputs \"I dunno error\"[2 + n..]\n"
+  },
+  "stage_5": {
+    "expected_error": "index -4 too small for array; minimum: -3 (IndexError)",
+    "source": "# Out of bounds?\nary = [1, 2, 3]\nary[3] = \"no error\"\nputs ary[3]\n"
+  },
+  "stage_6": {
+    "expected_error": "negative argument (ArgumentError)",
+    "source": "# Hint: String#*\nn = 10\nputs \"rhino error!!\"[n * -1..-3]\n"
+  },
+  "stage_7": {
+    "expected_error": "private method 'main' called for an instance of C (NoMethodError)",
+    "source": "# Last day!\nclass C\n  def no = \"no\"\n  def error = \"error\"\n\n  private :no, :error\n\n  def main\n    no + \" \" + error\n  end\nend\n\nputs C.new.main\n# Thanks @joker1007\n"
+  },
+  "stage_8": {
+    "expected_error": "cyclic include detected (ArgumentError)",
+    "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n"
+  },
+  "stage_9": {
+    "expected_error": "wrong number of arguments (given 1, expected 0) (ArgumentError)",
+    "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x-y)\n"
+  },
+  "stage_A": {
+    "expected_error": "cannot clamp with an exclusive range (ArgumentError)",
+    "source": "def foo(...)\n  \"no error\".clamp(...)\nend\n\nputs foo(\"a\", \"z\")\n"
+  },
+  "stage_B": {
+    "expected_error": "0: 1 === 0 does not return true (NoMatchingPatternError)",
+    "source": "r = (0..1)\n0 => ^r\nputs \"no error\"\n"
+  },
+  "stage_C": {
+    "expected_error": "invalid radix 52 (ArgumentError)",
+    "source": "puts \"no \" + 9219755.to_s(034)"
+  }
+}

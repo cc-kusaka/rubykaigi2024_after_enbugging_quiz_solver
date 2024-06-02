@@ -1,0 +1,491 @@
+{
+  "stage_1": [
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn += 1_000\np n + 1\nputs \"no error\"\n",
+      "n": 60,
+      "char": "+"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn =# 1_000\np n + 1\nputs \"no error\"\n",
+      "n": 61,
+      "char": "#"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn =j 1_000\np n + 1\nputs \"no error\"\n",
+      "n": 61,
+      "char": "j"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = #1_000\np n + 1\nputs \"no error\"\n",
+      "n": 62,
+      "char": "#"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000.\np n + 1\nputs \"no error\"\n",
+      "n": 67,
+      "char": "."
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\n.p n + 1\nputs \"no error\"\n",
+      "n": 68,
+      "char": "."
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np+ n + 1\nputs \"no error\"\n",
+      "n": 69,
+      "char": "+"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np  + 1\nputs \"no error\"\n",
+      "n": 70,
+      "char": ""
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np $n + 1\nputs \"no error\"\n",
+      "n": 70,
+      "char": "$"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np @n + 1\nputs \"no error\"\n",
+      "n": 70,
+      "char": "@"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np n j+ 1\nputs \"no error\"\n",
+      "n": 72,
+      "char": "j"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np n p+ 1\nputs \"no error\"\n",
+      "n": 72,
+      "char": "p"
+    },
+    {
+      "source": "# Change the following code\n# to raise the expected error\nn = 1_000\np n + 1\nputs+ \"no error\"\n",
+      "n": 80,
+      "char": "+"
+    }
+  ],
+  "stage_2": [
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[10].downcase\n",
+      "n": 57,
+      "char": "1"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[20].downcase\n",
+      "n": 57,
+      "char": "2"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[30].downcase\n",
+      "n": 57,
+      "char": "3"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[40].downcase\n",
+      "n": 57,
+      "char": "4"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[50].downcase\n",
+      "n": 57,
+      "char": "5"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[60].downcase\n",
+      "n": 57,
+      "char": "6"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[70].downcase\n",
+      "n": 57,
+      "char": "7"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[80].downcase\n",
+      "n": 57,
+      "char": "8"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[90].downcase\n",
+      "n": 57,
+      "char": "9"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[01].downcase\n",
+      "n": 58,
+      "char": "1"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[02].downcase\n",
+      "n": 58,
+      "char": "2"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[03].downcase\n",
+      "n": 58,
+      "char": "3"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[04].downcase\n",
+      "n": 58,
+      "char": "4"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[05].downcase\n",
+      "n": 58,
+      "char": "5"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[06].downcase\n",
+      "n": 58,
+      "char": "6"
+    },
+    {
+      "source": "# The billion dollar mistake\nary = [\"NO ERROR\"]\nputs ary[07].downcase\n",
+      "n": 58,
+      "char": "7"
+    }
+  ],
+  "stage_3": [
+    {
+      "source": "# Last of the day\ndef foo(x, y, z)\nend\n\nfoo(1, 2, )\n\nputs 'no error'\n",
+      "n": 50,
+      "char": ""
+    }
+  ],
+  "stage_4": [
+    {
+      "source": "# Good morning!\nn =# 3\nputs \"I dunno error\"[2 + n..]\n",
+      "n": 19,
+      "char": "#"
+    },
+    {
+      "source": "# Good morning!\nn =% 3\nputs \"I dunno error\"[2 + n..]\n",
+      "n": 19,
+      "char": "%"
+    },
+    {
+      "source": "# Good morning!\nn =j 3\nputs \"I dunno error\"[2 + n..]\n",
+      "n": 19,
+      "char": "j"
+    },
+    {
+      "source": "# Good morning!\nn = \nputs \"I dunno error\"[2 + n..]\n",
+      "n": 20,
+      "char": ""
+    },
+    {
+      "source": "# Good morning!\nn = #3\nputs \"I dunno error\"[2 + n..]\n",
+      "n": 20,
+      "char": "#"
+    },
+    {
+      "source": "# Good morning!\nn = $3\nputs \"I dunno error\"[2 + n..]\n",
+      "n": 20,
+      "char": "$"
+    },
+    {
+      "source": "# Good morning!\nn = 3.\nputs \"I dunno error\"[2 + n..]\n",
+      "n": 21,
+      "char": "."
+    },
+    {
+      "source": "# Good morning!\nn = 3\n.puts \"I dunno error\"[2 + n..]\n",
+      "n": 22,
+      "char": "."
+    },
+    {
+      "source": "# Good morning!\nn = 3\nputs \"I dunno error\"[2 + $n..]\n",
+      "n": 47,
+      "char": "$"
+    },
+    {
+      "source": "# Good morning!\nn = 3\nputs \"I dunno error\"[2 + @n..]\n",
+      "n": 47,
+      "char": "@"
+    }
+  ],
+  "stage_5": [
+    {
+      "source": "# Out of bounds?\nary = [1, 2, 3]\nary[~3] = \"no error\"\nputs ary[3]\n",
+      "n": 37,
+      "char": "~"
+    }
+  ],
+  "stage_6": [
+    {
+      "source": "*# Hint: String#*\nn = 10\nputs \"rhino error!!\"[n * -1..-3]\n",
+      "n": 0,
+      "char": "*"
+    },
+    {
+      "source": "# Hint: String#\n*\nn = 10\nputs \"rhino error!!\"[n * -1..-3]\n",
+      "n": 15,
+      "char": "\n"
+    },
+    {
+      "source": "# Hint: String#*\n*n = 10\nputs \"rhino error!!\"[n * -1..-3]\n",
+      "n": 17,
+      "char": "*"
+    },
+    {
+      "source": "# Hint: String#*\nn =* 10\nputs \"rhino error!!\"[n * -1..-3]\n",
+      "n": 20,
+      "char": "*"
+    },
+    {
+      "source": "# Hint: String#*\nn = *10\nputs \"rhino error!!\"[n * -1..-3]\n",
+      "n": 21,
+      "char": "*"
+    },
+    {
+      "source": "# Hint: String#*\nn = 1,0\nputs \"rhino error!!\"[n * -1..-3]\n",
+      "n": 22,
+      "char": ","
+    },
+    {
+      "source": "# Hint: String#*\nn = 10\nputs \"rhino error!!\"[?n * -1..-3]\n",
+      "n": 45,
+      "char": "?"
+    }
+  ],
+  "stage_7": [
+    {
+      "source": "# Last day!\nclass C\n  def no = \"no\"\n  def error = \"error\"\n\n  private# :no, :error\n\n  def main\n    no + \" \" + error\n  end\nend\n\nputs C.new.main\n# Thanks @joker1007\n",
+      "n": 68,
+      "char": "#"
+    },
+    {
+      "source": "# Last day!\nclass C\n  def no = \"no\"\n  def error = \"error\"\n\n  private #:no, :error\n\n  def main\n    no + \" \" + error\n  end\nend\n\nputs C.new.main\n# Thanks @joker1007\n",
+      "n": 69,
+      "char": "#"
+    },
+    {
+      "source": "# Last day!\nclass C\n  def no = \"no\"\n  def error = \"error\"\n\n  private :no,# :error\n\n  def main\n    no + \" \" + error\n  end\nend\n\nputs C.new.main\n# Thanks @joker1007\n",
+      "n": 73,
+      "char": "#"
+    },
+    {
+      "source": "# Last day!\nclass C\n  def no = \"no\"\n  def error = \"error\"\n\n  private :no, #:error\n\n  def main\n    no + \" \" + error\n  end\nend\n\nputs C.new.main\n# Thanks @joker1007\n",
+      "n": 74,
+      "char": "#"
+    },
+    {
+      "source": "# Last day!\nclass C\n  def no = \"no\"\n  def error = \"error\"\n\n  private :no, :error,\n\n  def main\n    no + \" \" + error\n  end\nend\n\nputs C.new.main\n# Thanks @joker1007\n",
+      "n": 80,
+      "char": ","
+    }
+  ],
+  "stage_8": [
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": ""
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M\t2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "\t"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M\n2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "\n"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M\u000b2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "\u000b"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M\f2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "\f"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M\r2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "\r"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M 2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": " "
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M#2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "#"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M$2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "$"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M;2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": ";"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M~2\n  include M\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 64,
+      "char": "~"
+    },
+    {
+      "source": "# Do you know of such\n# a pedantic error?\nmodule M\nend\n\nmodule M2\n  include M2\nend\n\nmodule M\n  #include ? # cyclic?\n  puts \"no error\"\nend\n",
+      "n": 77,
+      "char": "2"
+    }
+  ],
+  "stage_9": [
+    {
+      "source": "# The last quiz\ndef x =x 2\ndef y = 1\nputs \"no error\" * (x-y)\n",
+      "n": 23,
+      "char": "x"
+    },
+    {
+      "source": "# The last quiz\ndef x =y 2\ndef y = 1\nputs \"no error\" * (x-y)\n",
+      "n": 23,
+      "char": "y"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y =x 1\nputs \"no error\" * (x-y)\n",
+      "n": 33,
+      "char": "x"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y =y 1\nputs \"no error\" * (x-y)\n",
+      "n": 33,
+      "char": "y"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs x\"no error\" * (x-y)\n",
+      "n": 41,
+      "char": "x"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs y\"no error\" * (x-y)\n",
+      "n": 41,
+      "char": "y"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * x(x-y)\n",
+      "n": 54,
+      "char": "x"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * y(x-y)\n",
+      "n": 54,
+      "char": "y"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x\t-y)\n",
+      "n": 56,
+      "char": "\t"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x\u000b-y)\n",
+      "n": 56,
+      "char": "\u000b"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x\f-y)\n",
+      "n": 56,
+      "char": "\f"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x\r-y)\n",
+      "n": 56,
+      "char": "\r"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x -y)\n",
+      "n": 56,
+      "char": " "
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x$-y)\n",
+      "n": 56,
+      "char": "$"
+    },
+    {
+      "source": "# The last quiz\ndef x = 2\ndef y = 1\nputs \"no error\" * (x~-y)\n",
+      "n": 56,
+      "char": "~"
+    }
+  ],
+  "stage_A": [
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...0)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "0"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...1)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "1"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...2)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "2"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...3)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "3"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...4)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "4"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...5)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "5"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...6)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "6"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...7)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "7"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...8)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "8"
+    },
+    {
+      "source": "def foo(...)\n  \"no error\".clamp(...9)\nend\n\nputs foo(\"a\", \"z\")\n",
+      "n": 35,
+      "char": "9"
+    }
+  ],
+  "stage_B": [
+    {
+      "source": "r = (0..;1)\n0 => ^r\nputs \"no error\"\n",
+      "n": 8,
+      "char": ";"
+    }
+  ],
+  "stage_C": [
+    {
+      "source": "puts \"no \" + 9219755.to_s(0X34)",
+      "n": 27,
+      "char": "X"
+    },
+    {
+      "source": "puts \"no \" + 9219755.to_s(0x34)",
+      "n": 27,
+      "char": "x"
+    }
+  ]
+}
